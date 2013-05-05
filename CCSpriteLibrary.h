@@ -5,4 +5,4 @@
 
 #import "CCSprite.h"
 #import "CCSprite+MultiplyBlend.h"
-#import "CCSprite+spriteWithFiles.h"
+#import "CCSprite+SpriteWithFiles.h"
