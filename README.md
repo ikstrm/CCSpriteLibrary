@@ -14,8 +14,6 @@ If your sprite has a transparent background, you have to make them white.
 Transparent point in your sprite will be black with multiply blend mode.  
   
   
-  
-  
 spriteWithFiles:
 ```
 CCSprite *sprite = [CCsprite spriteWithFiles:@"btn_base.png", @"btn_icon.png", nil];  
