@@ -1,5 +1,5 @@
 //
-//  CCSprite+spriteWithFiles.h
+//  CCSprite+SpriteWithFiles.h
 //  Created by Takashi Kokubun on 13/05/05.
 //
 

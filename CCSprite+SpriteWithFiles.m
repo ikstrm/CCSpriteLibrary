@@ -1,9 +1,9 @@
 //
-//  CCSprite+spriteWithFiles.m
+//  CCSprite+SpriteWithFiles.m
 //  Created by Takashi Kokubun on 13/05/05.
 //
 
-#import "CCSprite+spriteWithFiles.h"
+#import "CCSprite+SpriteWithFiles.h"
 
 @implementation CCSprite (SpriteWithFiles)
 
