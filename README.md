@@ -1,6 +1,6 @@
 # CCSprite Library
 
-Library for CCSprite in cocos2d  
+Cocos2d Library for CCSprite  
 Created by Takashi Kokubun  
 
 ## Usage
@@ -16,8 +16,8 @@ Transparent point in your sprite will be black with multiply blend mode.
   
 spriteWithFiles:
 ```
-CCSprite *sprite = [CCsprite spriteWithFiles:@"btn_base.png", @"btn_icon.png", nil];  
-[sprite spriteAtIndex:1].multiplyBlend = YES;
+CCSprite *spriteSet = [CCsprite spriteWithFiles:@"btn_base.png", @"btn_icon.png", nil];  
+[spriteSet spriteAtIndex:1].multiplyBlend = YES;
 ```
 You can make a set of sprites and access to each of them easily.  
 Each sprite will be placed in the center of the first sprite.  
