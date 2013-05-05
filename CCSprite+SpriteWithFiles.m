@@ -12,20 +12,20 @@
 	CCSprite *parentSprite;
 	CGSize parentSize;
 	va_list args;
-	
+
 	if (fileName) {
 		parentSprite = [self spriteWithFile:fileName];
 		parentSize = parentSprite.contentSize;
-		
+
 		int i = 1;
 		va_start(args, fileName);
-    while ((eachFileName = va_arg(args, id))) {
+		while ((eachFileName = va_arg(args, id))) {
 			CCSprite *eachSprite = [self spriteWithFile:eachFileName];
 			eachSprite.position = CGPointMake(parentSize.width * 0.5, parentSize.height * 0.5);
 			[parentSprite addChild:eachSprite z:i tag:i];
 			i++;
-    }
-    va_end(args);
+		}
+		va_end(args);
 	}
 	return parentSprite;
 }
