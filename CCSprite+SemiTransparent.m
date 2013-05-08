@@ -12,4 +12,8 @@
 	return self;
 }
 
+- (CCSprite *)semiTransparentCopy {
+	return [[CCSprite spriteWithTexture:[self texture]] semiTransparent];
+}
+
 @end

@@ -11,5 +11,6 @@
 @interface CCSprite (SemiTransparent)
 
 - (CCSprite *)semiTransparent;
+- (CCSprite *)semiTransparentCopy;
 
 @end
