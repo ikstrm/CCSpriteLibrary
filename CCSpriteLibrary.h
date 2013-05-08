@@ -6,3 +6,4 @@
 #import "CCSprite.h"
 #import "CCSprite+MultiplyBlend.h"
 #import "CCSprite+SpriteWithFiles.h"
+#import "CCSprite+SemiTransparent.h"
